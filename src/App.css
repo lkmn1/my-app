@@ -1,12 +1,11 @@
 .App {
-  text-align: center;
+  background-color: #181818;
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body::-webkit-scrollbar {
+  display: none;
 }
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +34,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+.my__container {
+  margin: 0 15px;
+  padding: 0 15px;
+}
+.netflix__description {
+  width: 610px;
+  line-height: 1;
+  font-size: 20px;
 }
